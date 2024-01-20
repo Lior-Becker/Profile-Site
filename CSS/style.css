@@ -47,7 +47,16 @@
 #TopLeft{
     border: 1px solid lime;
     height: fit-content;
-    width: 100vh;
+    width: 500vw;
+}
+#centreLeft{
+    position: absolute;
+    border: 1px solid lime;
+    height: fit-content;
+    width: fit-content;
+    left: 1px;
+    top:40%
+    /* position: fixed; */
 }
 
 #BottomLeft{
@@ -74,11 +83,55 @@
     animation: gradient 20s ease infinite;
 }
 
+#bg-Batman{
+    /* overflow: hidden; */
+    background: linear-gradient(-45deg, #050A30, #000C66, #050A30,#000000);
+    /* background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab); */
+    background-size: 400% 400%;
+    animation: gradient 20s ease infinite;
+}
+
+
 #aboutMe{
     border: 1px lime;
     height: fit-content;
 }
 
+#Education{
+    border: 1px lime;
+    height: fit-content;
+}
+
+#Skills{
+    border: 1px lime;
+    height: fit-content;
+}
+
+#Likes{
+    border: 1px lime;
+    height: fit-content;
+}
+#text{
+    font-size: x-large;
+    color: #e2e8f0;
+}
+
+#headings{
+    font-size: xxx-large;
+    color: #e2e8f0;
+}
+#subHeading{
+    font-size: xx-large;
+    color: #e2e8f0;
+}
+#references{
+    border: 1px lime;
+    height: fit-content;
+}
+#projects{
+    border: 1px lime;
+    height: fit-content;
+}
 @keyframes gradient {
     0% {
         background-position: 0% 50%;
