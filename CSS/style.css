@@ -107,15 +107,21 @@
     font-size: x-large;
     color: #e2e8f0;
     text-align: justify;
+    margin-right: 3%;
+    margin-left: 1%;
 }
 
 #headings{
     font-size: xxx-large;
     color: #e2e8f0;
+    margin-right: 3%;
+    margin-left: 1%;
 }
 #subHeading{
     font-size: xx-large;
     color: #e2e8f0;
+    margin-right: 3%;
+    margin-left: 1%;
 }
 #references{
     height: fit-content;
