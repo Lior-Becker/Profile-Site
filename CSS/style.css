@@ -1,22 +1,11 @@
 #Wrapper{
-    /* width: 100%;
-    overflow: auto;
-    height: 100vh; */
+
     display: flex;
     flex-direction: row;
     min-height: 100vh;
 }
 #LeftBlock{
-    /* position: sticky;
-    top: 0%;
-    margin-left: 5%;
-    margin-top: 5%;
-    width:40%;
-    float: left;
-    border: 1px solid red;
-    height:80vh;
-    display: flex;
-    justify-content: center; */
+
     position: sticky;
     top: 0;
     z-index: 1;
@@ -24,22 +13,12 @@
     width:50%;
     float: left;
     height: 100vh;
-    border: 1px solid red;
+
     display: flex;
     justify-content: center;
     
 }
 #LeftBlockBatMan{
-    /* position: sticky;
-    top: 0%;
-    margin-left: 5%;
-    margin-top: 5%;
-    width:40%;
-    float: left;
-    border: 1px solid red;
-    height:80vh;
-    display: flex;
-    justify-content: center; */
     position: sticky;
     top: 0;
     z-index: 1;
@@ -47,7 +26,6 @@
     width:50%;
     float: left;
     height: 100vh;
-    border: 1px solid red;
     display: flex;
     justify-content: center;
     background-image: url("images\batman.jpg");
@@ -55,7 +33,6 @@
 }
 #rightsideLeftBlock{
     position: absolute;
-    border: 1px solid lime;
     height: fit-content;
     width: fit-content;
     right: 1px;
@@ -64,14 +41,8 @@
     margin-left: 50%;
 }
 #RightBlock{
-    /* margin-right: 5%;
-    margin-top: 5%;
-    width: 40%;
-    float: right;
-    border: 1px solid pink; */
     flex: 1;
     overflow-y: auto;
-    border: 1px solid pink;
     right:0 ;
     top:0;
     width: 50%;
@@ -79,24 +50,20 @@
 }
 
 #TopLeft{
-    border: 1px solid lime;
     height: fit-content;
     width: 500vw;
 }
 #centreLeft{
     position: absolute;
-    border: 1px solid lime;
     height: fit-content;
     width: fit-content;
     left: 1px;
     top:40%
-    /* position: fixed; */
 }
 
 #BottomLeft{
     position: absolute;
     bottom: 5px;
-    border: 1px solid cyan;
     width:fit-content;
     margin: auto;
     display: flex;
@@ -107,42 +74,33 @@
 #bottomImgs{
     height: 5vh;
     width: 5vh;
-    border: 1px solid green;
 }
 #bg{
-    /* overflow: hidden; */
     background: linear-gradient(-45deg, #111f44, #9400D3, #3a68dc,#CF9FFF);
-    /* background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab); */
     background-size: 400% 400%;
     animation: gradient 20s ease infinite;
 }
 
 #bg-Batman{
-    /* overflow: hidden; */
     background: linear-gradient(-45deg, #050A30, #000C66, #050A30,#000000);
-    /* background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab); */
     background-size: 400% 400%;
     animation: gradient 20s ease infinite;
 }
 
 
 #aboutMe{
-    border: 1px lime;
     height: fit-content;
 }
 
 #Education{
-    border: 1px lime;
     height: fit-content;
 }
 
 #Skills{
-    border: 1px lime;
     height: fit-content;
 }
 
 #Likes{
-    border: 1px lime;
     height: fit-content;
 }
 #text{
@@ -160,11 +118,9 @@
     color: #e2e8f0;
 }
 #references{
-    border: 1px lime;
     height: fit-content;
 }
 #projects{
-    border: 1px lime;
     height: fit-content;
 }
 @keyframes gradient {
