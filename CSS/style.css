@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito+Sans");
 #Wrapper{
 
     display: flex;
@@ -78,13 +79,13 @@
 #bg{
     background: linear-gradient(-45deg, #111f44, #9400D3, #3a68dc,#CF9FFF);
     background-size: 400% 400%;
-    animation: gradient 20s ease infinite;
+    animation: gradient 15s ease infinite;
 }
 
 #bg-Batman{
     background: linear-gradient(-45deg, #050A30, #000C66, #050A30,#000000);
     background-size: 400% 400%;
-    animation: gradient 20s ease infinite;
+    animation: gradient 15s ease infinite;
 }
 
 
@@ -109,25 +110,58 @@
     text-align: justify;
     margin-right: 3%;
     margin-left: 1%;
-}
+    font-family: Nunito Sans;
+   }
 
 #headings{
     font-size: xxx-large;
     color: #e2e8f0;
     margin-right: 3%;
     margin-left: 1%;
+    font-family: Nunito Sans;
 }
 #subHeading{
     font-size: xx-large;
     color: #e2e8f0;
     margin-right: 3%;
     margin-left: 1%;
+    font-family: Nunito Sans;
+}
+#subHeadingLinks{
+    font-size: xx-large;
+    color: #e2e8f0;
+    margin-right: 3%;
+    margin-left: 1%;
+    font-family: Nunito Sans;
+}
+#subHeadingLinks:hover{
+    font-size: xx-large;
+    color: darkgray;
+    margin-right: 3%;
+    margin-left: 1%;
+    font-family: Nunito Sans;
 }
 #references{
     height: fit-content;
 }
 #projects{
     height: fit-content;
+}
+#links{
+    font-size: x-large;
+    color: #e2e8f0;
+    text-align: justify;
+    margin-right: 3%;
+    margin-left: 1%;
+    font-family: Nunito Sans;
+}
+#links:hover{
+    font-size: x-large;
+    color: darkgray;
+    text-align: justify;
+    margin-right: 3%;
+    margin-left: 1%;
+    font-family: Nunito Sans;
 }
 @keyframes gradient {
     0% {
