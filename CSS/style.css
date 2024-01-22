@@ -31,6 +31,7 @@
     height: 100vh;
     display: flex;
     justify-content: center;
+    border: 1px solid black;
 }
 #rightsideLeftBlock{
     position: absolute;
@@ -60,7 +61,8 @@
     height: fit-content;
     width: fit-content;
     left: 1px;
-    top:40%
+    top:40%;
+    margin-left: 3%;
 }
 
 #BottomLeft{
@@ -110,7 +112,7 @@
     color: #e2e8f0;
     text-align: justify;
     margin-right: 3%;
-    margin-left: 1%;
+    margin-left: 3%;
     font-family: Nunito Sans;
    }
 
@@ -118,28 +120,28 @@
     font-size: xxx-large;
     color: #e2e8f0;
     margin-right: 3%;
-    margin-left: 1%;
+    margin-left: 3%;
     font-family: Nunito Sans;
 }
 #subHeading{
     font-size: xx-large;
     color: #e2e8f0;
     margin-right: 3%;
-    margin-left: 1%;
+    margin-left: 3%;
     font-family: Nunito Sans;
 }
 #subHeadingLinks{
     font-size: xx-large;
     color: #e2e8f0;
     margin-right: 3%;
-    margin-left: 1%;
+    margin-left: 3%;
     font-family: Nunito Sans;
 }
 #subHeadingLinks:hover{
     font-size: xx-large;
     color: darkgray;
     margin-right: 3%;
-    margin-left: 1%;
+    margin-left: 3%;
     font-family: Nunito Sans;
 }
 #references{
@@ -153,7 +155,6 @@
     color: #e2e8f0;
     text-align: justify;
     margin-right: 3%;
-    margin-left: 1%;
     font-family: Nunito Sans;
 }
 
